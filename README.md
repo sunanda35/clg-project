@@ -1,5 +1,5 @@
 ## Project startup
-It's a colaboraive college project by Ashis, Debajyoti and Sunanda.
+It's a colaboraive college project by <a href='https://github.com/ashiscs'>Ashis</a>, <a href='https://github.com/Debajyoti9'>Debajyoti</a> and <a href='https://github.com/sunanda35'>Sunanda</a>.
 
 ### Used things - 
     |- React                 --Development
@@ -13,13 +13,15 @@ It's a colaboraive college project by Ashis, Debajyoti and Sunanda.
 
 
 ### Command install - 
-    |- npm install create-react-dom   --Install router
-    |- npm install firebase          --Install firebase
-    |- sudo(Administrator mood) npm install -g firebase-tools   -- setup firebase
-    |- npm install @material-ui/core               --for Dependancy (Package.json)
-    |- npm install @material-ui/icons              --To import SVG icons
+    |- npm install create-react-dom         --Install router
+    |- npm install firebase                 --Install firebase
+    |- sudo npm install -g firebase-tools   -- setup firebase
+    |- npm install @material-ui/core        --for Dependancy (Package.json)
+    |- npm install @material-ui/icons       --To import SVG icons
 
-    * For linux sudo is root user, for windows user, please search it on internet for administrator mood ( may be only-> npm install -g firebase-tools)
+    * For linux sudo is root user, for windows user, 
+    please search it on internet for administrator mood 
+    ( may be only-> npm install -g firebase-tools)
 
     
 ### Project strcture - 
