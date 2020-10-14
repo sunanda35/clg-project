@@ -1,3 +1,50 @@
-.header > h3{
-    text-align: center;
+@import '../../production/color.css';
+.header{
+    width: 100%;
+    background-color: var(--header-bg-color);
+    height: 50px;
+    overflow: hidden;
+    padding: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.header_left{
+    width: 100px;
+    object-fit: contain;
+    overflow: hidden;
+}
+.header_left > img{
+    width: 100%;
+}
+.header_right>ul{
+    display: flex;
+    align-items: center;  
+    padding: 2px;
+}
+.header_right>ul>li{
+    list-style: none;
+    margin-right: 1rem;
+    color: rgb(77, 77, 77);
+}
+.h_r_search{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border: 1px solid rgb(160, 157, 157);
+    background-color: whitesmoke;
+    border-radius: 3px;
+}
+.h_r_search > input{
+    height: 95%;
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+.h_r_search > input:focus{
+    border: none;
+}
+.h_r_search > input >textarea{
+    margin-left: 5px;
 }

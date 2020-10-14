@@ -2,8 +2,8 @@
     margin: 0;
     padding: 0;
 }
-.page{
-    height: 500px;
+.land{
     display: flex;
     justify-content: space-around;
+    border: 1px solid black;                /* just to recognize this bosx */
 }
