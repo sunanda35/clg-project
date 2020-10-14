@@ -1,5 +1,6 @@
 import React from 'react'
 import './header.css'
+import {title, logo} from '../../production/string'
 import Avatar from '@material-ui/core/Avatar';
 import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
 import SearchIcon from '@material-ui/icons/Search';
@@ -8,7 +9,7 @@ function Header() {
     return (
         <div className='header'>
             <div className='header_left'>
-                <img src='https://www.artattackk.com/blog/wp-content/uploads/2017/06/blog-images-1-e14970132908131.png' alt='clg-project'/>
+                <img src={logo} alt={title}/>
             </div>
             <div className='header_right'>
                 <ul>

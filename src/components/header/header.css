@@ -34,17 +34,40 @@
     border: 1px solid rgb(160, 157, 157);
     background-color: whitesmoke;
     border-radius: 3px;
+    padding-left: 6px;
 }
 .h_r_search > input{
     height: 95%;
     border: none;
     font-size: large;
     font-weight: bold;
+    color: rgb(70, 70, 70);
+    background-color: whitesmoke;
     box-sizing: border-box;
 }
 .h_r_search > input:focus{
-    border: none;
+    outline: none;
+    margin-right: auto;
 }
 .h_r_search > input >textarea{
-    margin-left: 5px;
+    outline: none;
+}
+.h_r_s_icon{
+    background-color: whitesmoke;
+}
+@media only screen and (max-width: 600px){
+    .h_r_search > input{
+        width: 90%;
+        font-size: medium;
+        font-weight: normal;
+    }
+    
+    .h_r_search{
+        width: 120px;
+        transition: width 1s;
+    }
+    .h_r_search:hover{
+        width: 200px;
+    }
+    
 }
