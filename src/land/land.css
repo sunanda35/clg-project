@@ -2,8 +2,3 @@
     margin: 0;
     padding: 0;
 }
-.land{
-    display: flex;
-    justify-content: space-around;
-    border: 1px solid black;                /* just to recognize this bosx */
-}
