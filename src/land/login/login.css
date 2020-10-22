@@ -1,3 +1,67 @@
 .lgin{
-    color: green;
+    display: flex;
+}
+
+.login{
+    align-items:center ;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin: 75px;
+    background: #000046;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height:100%;
+    width: 240px;
+    border-radius: .4em;
+}
+
+.login > input{
+    align-items: center;
+    background-color: #eff2f5;
+    padding: 5px 5px 10px 5px;
+    margin: 8px;
+    border-radius: 100px;
+    border: none;
+    outline-width: 0;
+    outline-style: none;
+}
+
+.login > button{
+    margin-top: 20px;
+    align-items: center;
+    background-color: rgba(184, 23, 23, 0.678);
+    border-radius: 200px;
+    display: inline-block;
+    border: none;
+    color: #fff;
+    outline-style: none;
+    cursor: pointer;
+    margin-bottom: 6px;
+}
+
+.login > h1{
+    color: #fff;
+}
+
+.login .forget_pswd{
+    text-decoration: none;
+    color: #fff;
+    outline-style: none;
+}
+
+.login .lg-button{
+    padding: 8px 54px;
+    font-size: 16px;
+    font-weight:800;
+}
+
+.login .create-acc{
+    padding: 8px 30px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.loginLogo{
+    background-color: skyblue;
 }

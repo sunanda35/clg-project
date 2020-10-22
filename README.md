@@ -40,20 +40,42 @@ It's a colaboraive college project by <a href='https://github.com/ashiscs'>Ashis
 
     
 ### Project file Structure - 
-    |- App.js
-    |- production
-        |- String.js      --store all important reuseable string
-        |- firebase.js    --firebae dependancy
-        |- color.css      --store all important and reusable colors
-    |- components
-        |- Header
-        |- Footer
-    |- pages
-        |- Drawer      --for side-drawer window
-        |- Dashboard   --to see dashboard
-        |- Error       --show 404 for gandu user
-    |- land
-        |- Login.js    --first land to login page
-        |- Page.js     --2nd forward to this page where everything will show.
+        |- App.js                                              //entry or routing point
+        |- component                                           //it's only for main component like header and footer
+            |- footer                                                       //footer
+                |- Footer.js
+                |- footer.css
+            |- header                                                       //header
+                |- Header.js
+                |- header.css
+
+        |- land                                                             //Land page (User's very first interection)
+            |- login                                                                //login page
+                |- Login.js
+                |- login.css
+            |- Land.js                                                      
+            |- land.css
+
+        |- pages            
+            |- dashboard                                                    //Main dashboard page
+                |- Dashboard.js
+                |- Dashboard.css
+            |- drawer                                                       //Left side drawer page
+                |- Drawer.js
+                |- Drawer.css
+            |- Page.js
+            |- page.css
+
+        |- production                                 //Main production folder, Theme and database can be changed from here
+            |- color.css                                        //All color initialize here globally
+            |- firebase.js                                      //firebase config file to access database
+            |- string.js                                        //All constant string initialize here
+        |- reusable                                 //Every reusable folder will store here.
+            |- error                                                   //error page (It's the landing page of error routing)
+                |- Error.js
+                |- error.css
+            |-                                      //*** Every reusable file should have in it's own folder
+
+    
     
     

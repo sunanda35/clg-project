@@ -1,5 +1,6 @@
 import React from 'react';
-import {BrowserRouter, Switch, Route} from 'react-router-dom'
+import './App.css'
+import {BrowserRouter, Switch, Route, Redirect} from 'react-router-dom'
 import Land from './land/Land';
 import Page from './pages/Page'
 
@@ -7,9 +8,10 @@ function App() {
   return (
     <BrowserRouter>
     <Switch>
-      <Route path='/' component={Land} exact/>
+      <Redirect from='/' to='/login' exact/>
+      <Route path='/login' component={Land} exact/>
       <Route path='/page' component={Page} />
-      <Route component={Error} />
+      <Route component={Error} path='*' exact/>
     </Switch>
     </BrowserRouter>
   );
