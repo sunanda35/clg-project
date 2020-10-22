@@ -1,5 +1,6 @@
 .lgin{
     display: flex;
+    justify-content: space-between;
 }
 
 .login{
