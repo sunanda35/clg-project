@@ -1,5 +1,5 @@
 ## Project startup
-It's a colaboraive college project by <a href='https://github.com/ashiscs'>Ashis</a>, <a href='https://github.com/Debajyoti9'>Debajyoti</a> and <a href='https://github.com/sunanda35'>Sunanda</a>.
+It's a collaborative college project by <a href='https://github.com/ashiscs'>Ashis</a>, <a href='https://github.com/Debajyoti9'>Debajyoti</a> and <a href='https://github.com/sunanda35'>Sunanda</a>.
 
 * Your `npm start` may not work after just clone this repository.
     1. Do `npm install` first
@@ -13,7 +13,7 @@ It's a colaboraive college project by <a href='https://github.com/ashiscs'>Ashis
 
 
 ### Functionality -
-    ** Mr. Ashis please write here about all functionalities.
+    ** Will provide after the completion of the project for the viewers.
 
 
 ### Command install - 
