@@ -7,13 +7,9 @@ function Login() {
         <div className='lgin'>
             <h1>It's my Login page header</h1>
             <Link to='./Page'>Go Main page</Link>
-<<<<<<< HEAD
-        
-=======
         <div className="loginLogo">
              <img src="" alt=""/>
         </div>
->>>>>>> 61b47c670cbf9d9ccd8d6da91622753a3095788a
         <div className="login">
            <h1>Login</h1>
           <input type="text" placeholder="  Enter your Email  " name="email" required/>
