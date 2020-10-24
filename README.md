@@ -13,7 +13,7 @@ It's a colaboraive college project by <a href='https://github.com/ashiscs'>Ashis
 
 
 ### Functionality -
-    ** Mr. Ashis please write here about all functionalities.
+    ** Will provide after the completion of the project for the viewers.
 
 
 ### Command install - 
