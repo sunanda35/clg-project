@@ -1,3 +1,11 @@
-.footer > h4{
-    text-align: center;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #00616433;
+  border: 1px solid #ab47bc;
+  color: white;
+  padding: 20px;
 }

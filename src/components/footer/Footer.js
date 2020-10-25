@@ -1,12 +1,15 @@
-import React from 'react'
-import './footer.css'
+import React from "react";
+import "./footer.css";
 
-function Footer() {
-    return (
-        <div className='footer'>
-            <h4>I am footer</h4>
-        </div>
-    )
+function AppFooter() {
+  return (
+    <div className="footer">
+      <p>
+        &copy;{new Date().getFullYear()} College Project | All rights reserved |
+        Terms Of Service | Privacy
+      </p>
+    </div>
+  );
 }
 
-export default Footer
+export default AppFooter;
