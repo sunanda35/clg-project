@@ -58,6 +58,12 @@ It's a collaborative college project by <a href='https://github.com/ashiscs'>Ash
 
         |- pages            
             |- dashboard                                                    //Main dashboard page
+                |- tabs                                                     //contain stats and recent bookmark
+                    |- rbookmark                                                //recent bookmark
+                        |- Bookmark.js
+                        |- bookmark.css
+                |- topics                                                   //contain every topic
+                    |- ////////////////ashis going to to add topics
                 |- Dashboard.js
                 |- Dashboard.css
             |- drawer                                                       //Left side drawer page
