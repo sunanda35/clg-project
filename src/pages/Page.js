@@ -2,7 +2,7 @@ import React from 'react'
 import './page.css'
 import Header from '../components/header/Header'
 import Footer from '../components/footer/Footer'
-import Drawer from './drawer/Drawer'
+import Navbar from './drawer/Navbar'
 import Dashboard from './dashboard/Dashboard'
 
 export default function Page() {
@@ -10,7 +10,7 @@ export default function Page() {
         <div>
             <Header/>
             <div className='page'>
-                <Drawer/>
+                <Navbar/>
                 <Dashboard/>
             </div>
             <Footer/>
