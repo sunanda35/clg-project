@@ -3,6 +3,7 @@ import "./App.css";
 import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import Land from "./land/Land";
 import Page from "./pages/Page";
+import Navbar from "./pages/drawer/Navbar";
 import AppFooter from "./components/footer/Footer";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <Route path="/login" component={Land} exact />
             <Route path="/page" component={Page} />
             <Route component={Error} path="*" exact />
+            <Navbar/>
           </Switch>
         </BrowserRouter>
       </div>
