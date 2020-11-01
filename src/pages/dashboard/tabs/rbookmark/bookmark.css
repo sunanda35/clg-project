@@ -1,43 +1,68 @@
 .bookmark{
     width: 260px;
-    border: 2px solid black;
-    border-radius: 6px;
+    height: 31.5%;
+    box-sizing: border-box;
+    border: 1.5px solid rgb(41, 112, 153);
+    border-radius: 5px;
+    position: fixed; /* or absolute */
+    top: 50%;
+    left: 75%;
+    background-color: rgba(7, 58, 134, 0.678);
 }
+
 .bookmark > p{
     font-size: large;
     font-weight: bold;
     text-align: center;
+    color:rgba(173, 164, 43, 0.932);
+    margin-bottom: 10px;
 }
 .hr{
     width: 100%;
     height: 0.1rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 3px;
     margin-left: auto;
     margin-right: auto;
-    background-color: black;
-}
-.b_data{
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: large;
-    font-weight: normal;
+    background-color: rgb(30, 70, 122);
 }
 .btn{
-    padding: 5px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 10px;
+    padding: 2px;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: rgba(2, 2, 54, 0.76);
+    border: none;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    margin-bottom: 2px;
     align-items: center;
     text-align: center;
     cursor: pointer;
-    background-color: rgb(147, 212, 156);
     display:flex;
 }
-.btn >h4{
-    font-size: 1.5rem;
+button{
+    font-size: 1rem;
+    width: 100%;
+    padding: 3px;
+    background: transparent;
+    text-transform: capitalize;
+    text-align: center;
+    position: relative;
+    border: none;
+    border-radius: 2px;
+    top: 35%;
+    cursor: pointer;
+    color: cornsilk;
 }
 .icn{
-    margin-left: 5px;
+    margin-left: 2px;
+}
+
+.bookmark > h3{
+    border: none;
+    text-align: center;
+    position: relative;
+    top: 3px;
+    text-shadow:  3px 3px 0 rgba(24, 11, 37, 0.24);
+    color: rgb(216, 99, 57);
 }
